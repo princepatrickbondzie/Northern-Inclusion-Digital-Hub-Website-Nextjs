@@ -358,7 +358,7 @@
   justify-content: space-evenly;
   margin: 0 auto;
   width: 36rem;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .software_card {
