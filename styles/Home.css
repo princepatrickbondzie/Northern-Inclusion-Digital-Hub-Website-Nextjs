@@ -279,12 +279,13 @@
 
 .service_card {
   height: 38vh;
-  width: 16rem;
+  width: 18rem;
   box-shadow: 1px 1px 3px 0.5px rgba(128, 128, 128, 0.466);
   border-radius: 10px;
   align-items: center;
   text-align: center;
-  padding: 1rem 20px 0 20px;
+  padding: 20px 20px 0 20px;
+  /* border: 1px solid black; */
 }
 
 .service_card_icon {
@@ -302,12 +303,13 @@
   font-family: "Montserrat", Sans-serif;
   font-size: 18px;
   font-weight: 600;
+  line-height: 15px;
 }
 
 .service_card > p {
   font-family: "Montserrat", Sans-serif;
   font-size: 14px;
-  line-height: 20px;
+  /* line-height: 20px; */
 }
 
 /* Software Section */
@@ -500,7 +502,7 @@
 }
 
 .team_card {
-  height: 60vh;
+  min-height: 60vh;
   width: 18rem;
   /* border: 0.5px solid rgb(229, 229, 229); */
   cursor: pointer;
