@@ -235,13 +235,18 @@
   transform: rotate(90deg);
   margin: 2.4rem 0 0 0;
 }
-.hr_right > p {
+.hr_right > p,
+.hr_right > a {
   font-size: 12px;
-  line-height: 15px;
+  /* line-height: 12px; */
 }
 .p_link:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+.hr_right > a {
+  text-decoration: none;
+  color: darkorange;
 }
 
 /* Services section */

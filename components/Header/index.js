@@ -5,6 +5,7 @@ import {
   FaFacebookSquare,
   FaTwitter,
 } from "react-icons/fa";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -30,27 +31,48 @@ const Header = () => {
             <hr />
             <div className="hr_right">
               <p>Connect with your fellow founders.</p>
-              <p style={{ color: "darkorange" }} className="p_link">
+              <Link
+                href="https://web.facebook.com/northerndigitalinclusionhub"
+                style={{ color: "darkorange" }}
+                className="p_link"
+              >
                 Join us on LinkedIn
-              </p>
+              </Link>
+              {/* <p style={{ color: "darkorange" }} className="p_link">
+                Join us on LinkedIn
+              </p> */}
             </div>
           </div>
           <div className="header_right_text">
             <hr />
             <div className="hr_right">
               <p>Become part of the NIDH community.</p>
-              <p style={{ color: "darkorange" }} className="p_link">
+              <Link
+                href="https://web.facebook.com/northerndigitalinclusionhub"
+                style={{ color: "darkorange" }}
+                className="p_link"
+              >
                 Join our whatsApp group
-              </p>
+              </Link>
+              {/* <p style={{ color: "darkorange" }} className="p_link">
+                Join our whatsApp group
+              </p> */}
             </div>
           </div>
           <div className="header_right_text">
             <hr />
             <div className="hr_right">
               <p>Get the latest on our programs.</p>
-              <p style={{ color: "darkorange" }} className="p_link">
+              <Link
+                href="https://web.facebook.com/northerndigitalinclusionhub"
+                style={{ color: "darkorange" }}
+                className="p_link"
+              >
                 Join our telegram group
-              </p>
+              </Link>
+              {/* <p style={{ color: "darkorange" }} className="p_link">
+                Join our telegram group
+              </p> */}
             </div>
           </div>
         </div>

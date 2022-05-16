@@ -14,11 +14,11 @@ const Navigation = () => {
         <div className="top_nav_contact">
           <div className="top_nav_contact_phone">
             <FaPhoneAlt size={17} />
-            <span>+233 300 0289 81</span>
+            <span>+233 551 1439 80</span>
           </div>
           <div className="top_nav_contact_mail">
             <MdMailOutline size={20} />
-            <span>northenidtechub@gmail.com</span>
+            <span>northerndigitalhub@gmail.com</span>
           </div>
         </div>
       </div>
